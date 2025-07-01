@@ -170,7 +170,7 @@ public class MainApplication {
                     break;
 
                 case 3:
-                    System.out.println("Hello Princy Please Verify Yourself......");
+                    System.out.println("Hello Unnati Please Verify Yourself......");
                     System.out.println("Enter Username");
                     String userName = sc.next();
                     System.out.println("Enter the Password");
@@ -178,7 +178,7 @@ public class MainApplication {
 
                     Admin ad = new Admin();
                     if(ad.getAdminUserName().equals(userName) && ad.getAdminPassword().equals(password)) {
-                        System.out.println("Hello Princy");
+                        System.out.println("Hello Unnati");
                         System.out.println("Welcome to Admin Menu");
 
 
